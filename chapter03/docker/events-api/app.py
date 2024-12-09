@@ -1,11 +1,10 @@
-from datetime import date, datetime, timedelta
 import time
+from datetime import date, datetime, timedelta
 
-from numpy import random
 import pandas as pd
 from faker import Faker
-
 from flask import Flask, jsonify, request
+from numpy import random
 
 
 def _generate_events(end_date):
